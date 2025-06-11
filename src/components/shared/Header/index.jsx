@@ -13,7 +13,7 @@ export default function Header() {
           </div> 
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
             <li><Link to="/" className="nav-link px-2">Home</Link></li> 
-            <li><a href="#" className="nav-link px-2">Book</a></li> 
+            <li><Link to="/Book" className="nav-link px-2">Book</Link></li> 
             <li><Link to="/Team" className="nav-link px-2">Team</Link></li> 
             <li><Link to="/Contact" className="nav-link px-2">Contact</Link></li> 
           </ul> 
